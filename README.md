@@ -5,3 +5,9 @@ to dynamically call external functons based on the conversation context, such as
 computation.
 
 create_openai_fn_runnable(functions, llm_model)
+
+
+## RUNNABLE_PARALLEL:
+in langchian runnable parallel, is useful when you wnat to perform several tasks simultaneously, such as 
+running multiple models, performing different tasks, or wuerying multiple data sources.
+
